@@ -15,6 +15,7 @@
         <a href="">Policy</a> | <a href="">Help</a>
     </div>
 </div>
+
 <div class="login-header-3">
     <div class="header-text1">
         <h4>Student Service Office</h4>        
@@ -25,28 +26,29 @@
 </div>
 
 <div class="line-link">
-    <a href="">http/ahgha/ga/ga/sg/asg/asg/as</a>
+    <a href="">Login</a>
 </div>
+
 <div class="line-link0">
     <a href="">Enter your username and password to enter the system</a>
 </div>
 
 <div>
     <center>
-    <form action="">
+    <form action="Partials/PHP/index.php" method="post">
         <table class="container">
            <tr>
-            <td style="text-align: left;">Username:</td>
-            <td style="text-align: center;"><input type="text"></td>
+            <td style="text-align: left;">Student ID:</td>
+            <td style="text-align: center;"><input type="text" name="std_id"></td>
            </tr>
            <tr>
             <td style="text-align: left;">Password:</td>
-            <td style="text-align: center;"><input type="password"></td>
+            <td style="text-align: center;"><input type="password" name="password"></td>
            </tr>
            <tr>
             <td align="right" width="25%">&nbsp;</td>
             <td class="submit">
-              <input class="btn" type="submit" value="Login">&nbsp;
+              <input class="btn" type="submit" value="Login" name="login">&nbsp;
               <input class="btn" type="Reset" value="Reset"></td>
           </tr>
         </table>
@@ -60,13 +62,13 @@
         <a href="">Policy</a> | <a href="">Help</a>
     </div>
     <div class="line-link-footer">
-        <a href="">http/ahgha/ga/ga/sg/asg/asg/as</a>
+        <a href="">Login</a>
     </div>
     <div class="footer-text">
-        <p>All right chcuhcuchcuchucuhcuhc</p>
-        <p>8th akhjfgasdg fas</p>
-        <p>Pasig ahjfgvihasod</p>
-        <p>Teleao huagoi ugasfsadfoi</p>
+        <p>All right reserve, DATALINE Philippines. August 2003</p>
+        <p>8th Floor, Ortigas Building, Ortigas Avenue fas</p>
+        <p>Pasig City, Philippines</p>
+        <p>Telephone(+632) 643-1529, 634-1958</p>
     </div>
 </footer>
 </html>
