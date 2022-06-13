@@ -18,11 +18,11 @@ if(isset($_POST['login'])){
         
         if(password_verify($password,$row['password'])){
             if($row['Role']=='Admin'){
-                header("Location:../Pages/AdminPanel/Admin_Dashboard.php");
+                header("Location:../Pages/Admin_Dashboard.php");
                 exit();
             }
             else if($row['Role']=="User"){
-                header("Location:../Pages/UserPanel/User_Dashboard.php");
+                header("Location:../Pages/User_Dashboard.php");
                 exit();
             }
             }else{

@@ -19,9 +19,9 @@ if(isset($_POST['submit'])){
             $sql = "INSERT INTO `users`(`Role`, `Student_id`, `password`) VALUES ('$role','$student_id','$hash_pass')";
             mysqli_query($conn,$sql);
             if($role == "Admin"){
-                header("Location:../Pages/AdminPanel/Admin_Dashboard.php");
+                header("Location:../Pages/Admin_Dashboard.php");
             }else if($role == "User"){
-                header("Location:../Pages/UserPanel/USer_Dashboard.php");
+                header("Location:../Pages/USer_Dashboard.php");
             }
         }else{
             echo "<script>alert(Incorect Password)</script>";
